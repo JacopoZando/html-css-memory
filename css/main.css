@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ADD8E6;
+  position: relative;
+}
+
+/* CONTENITORI */
+
+.contenitore {
+  background-color: #ADD8E6;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 50px;
+
+}
+
+/* PRIMA RIGA DI CARTE */
+
+.carta{
+  width:210px;
+  height: 250px;
+  background-image: url("../img/pattern.png");
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+
+  /* background-color: red; */
+
+  position: absolute;
+}
+
+.due {
+    margin-left: 230px;
+}
+
+.tre {
+  margin-left: 460px
+}
+
+.quattro {
+  margin-left: 690px;
+}
+
+/* SECONDA RIGA DI CARTE */
+
+.contenitore.due {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 320px;
+}
+
+.sei {
+
+  margin-left: 230px;
+  background-color: white;
+  background-image: url("../img/img01.png");
+  background-size:cover;
+
+}
+
+.sette {
+  margin-left: 460px;
+}
+
+.otto {
+  margin-left: 690px;
+}
+
+/* TERZA RIGA DI CARTE */
+
+.contenitore.tre {
+  margin-top: 590px;
+  margin-left: 400px;
+}
+
+.dieci {
+
+  margin-left: 230px;
+}
+
+.undici {
+  margin-left: 460px;
+}
+
+.dodici {
+  margin-left: 690px;
+}
