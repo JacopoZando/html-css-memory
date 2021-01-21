@@ -107,3 +107,67 @@ body {
 .dodici {
   margin-left: 600px;
 }
+
+/* HOOVER PER IL CAMBIO IMMAGINE */
+
+.uno:hover {
+  background-color: white;
+  background-image: url(../img/img03.png);
+  background-size: cover;
+}
+.due:hover {
+  background-color: white;
+  background-image: url(../img/img06.png);
+  background-size: cover;
+}
+
+.tre:hover {
+  background-color: white;
+  background-image: url(../img/img01.png);
+  background-size: cover;
+}
+.quattro:hover {
+  background-color: white;
+  background-image: url(../img/img05.png);
+  background-size: cover;
+}
+.cinque:hover {
+  background-color: white;
+  background-image: url(../img/img04.png);
+  background-size: cover;
+}
+/* .sei:hover {
+  background-color: white;
+  background-image: url(../img/img02.png);
+  background-size: cover;
+} */
+.sette:hover {
+  background-color: white;
+  background-image: url(../img/img02.png);
+  background-size: cover;
+}
+.otto:hover {
+  background-color: white;
+  background-image: url(../img/img06.png);
+  background-size: cover;
+}
+.nove:hover {
+  background-color: white;
+  background-image: url(../img/img05.png);
+  background-size: cover;
+}
+.dieci:hover {
+  background-color: white;
+  background-image: url(../img/img04.png);
+  background-size: cover;
+}
+.undici:hover {
+  background-color: white;
+  background-image: url(../img/img05.png);
+  background-size: cover;
+}
+.dodici:hover {
+  background-color: white;
+  background-image: url(../img/img03.png);
+  background-size: cover;
+}
