@@ -4,170 +4,52 @@
   font-family: 'Nerko One', cursive;
 }
 
+.All-in {
+  text-align: center;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
 body {
   background-color: #ADD8E6;
-  position: relative;
 }
 
 .titolo {
-
   color: white;
   font-size: 100px;
-  position: absolute;
-  margin-left: 550px;
 }
 
-.piedipagina {
-  color: black;
-  position: absolute;
+span {
   font-size: 20px;
-  padding-top: 830px;
-  margin-left: 700px;
 
 }
 
-/* CONTENITORI */
-
-.contenitore {
-  background-color: #ADD8E6;
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 150px;
-
-}
-
-/* PRIMA RIGA DI CARTE */
-
-.carta{
-  width:180px;
-  height: 205px;
+.carta {
+  width: 135px;
+  height: 150px;
+  border: 1px solid black;
   background-image: url("../img/pattern.png");
   background-size: contain;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 2px grey;
-
-  /* background-color: red; */
-
-  position: absolute;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.due {
-    margin-left: 200px;
+.uno, .cinque, .nove {
+  margin-left: 0px;
 }
 
-.tre {
-  margin-left: 400px
+.prima.imm {
+  width: auto;
+  height: 80%;
 }
-
-.quattro {
-  margin-left: 600px;
-}
-
-/* SECONDA RIGA DI CARTE */
-
-.contenitore.due {
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 380px;
-}
-
-.sei {
-
-  margin-left: 200px;
-  background-color: white;
-  background-image: url("../img/img01.png");
-  background-size:cover;
-
-}
-
-.sette {
-  margin-left: 400px;
-}
-
-.otto {
-  margin-left: 600px;
-}
-
-/* TERZA RIGA DI CARTE */
-
-.contenitore.tre {
-  margin-top: 610px;
-  margin-left: 400px;
-}
-
-.dieci {
-
-  margin-left: 200px;
-}
-
-.undici {
-  margin-left: 400px;
-}
-
-.dodici {
-  margin-left: 600px;
-}
-
-/* HOOVER PER IL CAMBIO IMMAGINE */
-
-.uno:hover {
-  background-color: white;
-  background-image: url(../img/img03.png);
-  background-size: cover;
-}
-.due:hover {
-  background-color: white;
-  background-image: url(../img/img06.png);
-  background-size: cover;
-}
-
-.tre:hover {
-  background-color: white;
-  background-image: url(../img/img01.png);
-  background-size: cover;
-}
-.quattro:hover {
-  background-color: white;
-  background-image: url(../img/img05.png);
-  background-size: cover;
-}
-.cinque:hover {
-  background-color: white;
-  background-image: url(../img/img04.png);
-  background-size: cover;
-}
-/* .sei:hover {
-  background-color: white;
-  background-image: url(../img/img02.png);
-  background-size: cover;
-} */
-.sette:hover {
-  background-color: white;
-  background-image: url(../img/img02.png);
-  background-size: cover;
-}
-.otto:hover {
-  background-color: white;
-  background-image: url(../img/img06.png);
-  background-size: cover;
-}
-.nove:hover {
-  background-color: white;
-  background-image: url(../img/img05.png);
-  background-size: cover;
-}
-.dieci:hover {
-  background-color: white;
-  background-image: url(../img/img04.png);
-  background-size: cover;
-}
-.undici:hover {
-  background-color: white;
-  background-image: url(../img/img05.png);
-  background-size: cover;
-}
-.dodici:hover {
-  background-color: white;
-  background-image: url(../img/img03.png);
-  background-size: cover;
+.contenitore {
+  text-align: center;
+  height: auto;
 }
