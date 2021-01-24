@@ -32,6 +32,7 @@ footer {
 span {
   font-size: 35px;
 
+
 }
 
 }
@@ -63,19 +64,29 @@ span {
   display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
+  text-align: center;
+
 }
 
 .carta:hover {
-
   background-image: none;
   background-color: white;
+}
+.carta:hover img {
+  display: block;
+  margin-bottom: 33px;
+  color: violet;
 
 }
-.carta:hover img, .carta:hover span {
-  display: block;
+
+.carta:hover span {
+  display: inline;
+  position: relative;
   color: violet;
-  z-index: 999;
+  bottom: 15px;
+
 }
+
 
 /* CARTA GIA' GIRATA */
 
@@ -86,10 +97,13 @@ span {
 
 .carta.sei img {
   display: block;
+  margin-bottom: 33px;
 }
 
 .carta.sei span {
-  display: block;
+  display: inline;
+  position: relative;
+  bottom: 15px;
 }
 
 /*ORDINAMENTO CARTE */
